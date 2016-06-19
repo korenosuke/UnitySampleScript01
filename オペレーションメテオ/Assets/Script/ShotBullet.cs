@@ -16,9 +16,8 @@ public class ShotBullet : MonoBehaviour {
 		if(Input.GetKey(KeyCode.Z)){
 			GameObject b = GameObject.Instantiate (BulletObject, MuzzleObject.position, Quaternion.identity) as GameObject;
 			Vector3 force;
-			force = this.gameObject.transform.forward * 3000;
+			force = MuzzleObject.transform.forward * 3000;
 			b.transform.GetComponent<Rigidbody> ().AddForce (force);
-			b.transform.position = MuzzleObject.position;
 
 		}
 	}

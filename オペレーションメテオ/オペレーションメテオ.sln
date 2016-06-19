@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{F38575EE-8AF2-3BA6-D923-C0D98EE767FC}") = "オペレーションメテオ", "Assembly-CSharp.csproj", "{B9D822C0-35E7-D00F-B494-FF74246D7B4E}"
+Project("{106D6A60-386B-448F-80D4-01758C203F54}") = "オペレーションメテオ", "Assembly-CSharp.csproj", "{DD08720B-9DA4-50BE-219F-60491422CA8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9D822C0-35E7-D00F-B494-FF74246D7B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9D822C0-35E7-D00F-B494-FF74246D7B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9D822C0-35E7-D00F-B494-FF74246D7B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9D822C0-35E7-D00F-B494-FF74246D7B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD08720B-9DA4-50BE-219F-60491422CA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD08720B-9DA4-50BE-219F-60491422CA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD08720B-9DA4-50BE-219F-60491422CA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD08720B-9DA4-50BE-219F-60491422CA8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
