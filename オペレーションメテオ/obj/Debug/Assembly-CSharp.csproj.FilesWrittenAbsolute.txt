@@ -1,0 +1,4 @@
+/Users/takimotoyasuyuki/Desktop/オペレーションメテオ/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/takimotoyasuyuki/Desktop/オペレーションメテオ/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/takimotoyasuyuki/Desktop/オペレーションメテオ/obj/Debug/Assembly-CSharp.dll
+/Users/takimotoyasuyuki/Desktop/オペレーションメテオ/obj/Debug/Assembly-CSharp.dll.mdb
