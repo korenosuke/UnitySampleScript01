@@ -1,14 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/testshot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Script/DeletePanel.cs" Line="21" Column="1" />
-      <File FileName="Assets/Script/DeleteMeteo.cs" Line="15" Column="4" />
-      <File FileName="Assets/Script/AccelerateBullet.cs" Line="8" Column="1" />
-      <File FileName="Assets/Script/ShotBullet.cs" Line="26" Column="1" />
-      <File FileName="Assets/Script/MovePlayerHed.cs" Line="10" Column="17" />
-      <File FileName="Assets/Script/MovePlayerBody.cs" Line="6" Column="1" />
-      <File FileName="Assets/Script/testshot.cs" Line="18" Column="19" />
+      <File FileName="Assets/Script/PlayerController.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
