@@ -17,7 +17,9 @@ public class PlayerController : MonoBehaviour {
 		private GameObject head;
 
 	// Use this for initialization
-	void Start () {	}
+	void Start () {
+		Cursor.visible = false;
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -34,10 +36,7 @@ public class PlayerController : MonoBehaviour {
 		tmp.z = 0;
 		transform.position += speed * Time.deltaTime * (tmp * direction);
 		head.transform.rotation = Quaternion.Euler (sightX, sightY, 0);
-
-		if (transform.position.y < -10) {
-			Time.timeScale = 0.0f;
-		}
+		if(IsGameOver()) Time.timeScale = 0.0f;
 	}
 
 	private Vector3 GetDirection() {
@@ -58,4 +57,6 @@ public class PlayerController : MonoBehaviour {
 
 		return tmpVec;
 	}
+
+	public bool IsGameOver() {	return transform.position.y < -10; }
 }

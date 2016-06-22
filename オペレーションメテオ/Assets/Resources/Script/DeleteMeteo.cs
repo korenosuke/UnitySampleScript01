@@ -4,11 +4,12 @@ using System.Collections;
 public class DeleteMeteo : MonoBehaviour {
 
 	[SerializeField]
-	private float yMin;
+		private float yMin;
+	[SerializeField]
+		private GameObject score_obj;
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
@@ -24,6 +25,7 @@ public class DeleteMeteo : MonoBehaviour {
 		}
 
 		if (collision.gameObject.tag == "bullet"){
+			ScoreViewController.AddScore(20);
 			Destroy (this.gameObject);
 		}
 
